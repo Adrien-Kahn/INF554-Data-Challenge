@@ -4,6 +4,14 @@
 
 - Distinguer mots techniques et mots pas techniques
 - "One-hot encoding" avec les mots qui apparaissent beaucoup
-- Clusteriser le graphe avec MINCUT puis faire le NLP sur les cluster (les mots importants peuvent être spécifiques aux clusters)
 - Centralité
-- Comptabiliser les différentes déclinaisons d'un mot comme un même mot ("MSE" et "Mean Square Error")
+- Comptabiliser les différentes déclinaisons d'un mot comme un même mot ("MSE" et "Mean Square Error") 
+
+- Cluster with spectral clustering (MINCUT not so cool it seems) and perform learning locally on each cluster
+- An interesting feature could be the number of clusters an author connects to
+- Look at sigma ?
+- Directly use SpectralClustering ?
+- If too expensive, clustering can be achieved by looking at subgraphs. Be careful that the first eigenvalues will be 0 corresponding to very small connected components which are thus not very relevant.
+
+Interesting paper (cc Michalis):
+https://arxiv.org/pdf/2104.05562.pdf
