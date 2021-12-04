@@ -13,5 +13,7 @@
 - Directly use SpectralClustering ?
 - If too expensive, clustering can be achieved by looking at subgraphs. Be careful that the first eigenvalues will be 0 corresponding to very small connected components which are thus not very relevant.
 
+- Check that h-index is not higher than number of abstract
+
 Interesting paper (cc Michalis):
 https://arxiv.org/pdf/2104.05562.pdf
