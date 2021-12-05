@@ -17,3 +17,6 @@
 
 Interesting paper (cc Michalis):
 https://arxiv.org/pdf/2104.05562.pdf
+
+- MinCut bad: $\mathbb O (n^2 \log n^2)$ and unbalanced
+- This problem is the determination of the [community structure](https://en.wikipedia.org/wiki/Community_structure)
